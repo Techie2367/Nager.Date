@@ -1,0 +1,146 @@
+id: e3438430-e077-4f5a-8952-51e23c616975
+name: palmer-penguins Canvas
+type: 1
+canvas_id: c1cc1ee5-fe74-48c6-a7fd-2cf277282d0b
+blocks:
+- auto_size: false
+  canvas_id: c1cc1ee5-fe74-48c6-a7fd-2cf277282d0b
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: 46567137-4eaf-425d-9d55-f973241bdece
+  layer_id: e3438430-e077-4f5a-8952-51e23c616975
+  name: Example Dataset
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 0
+- auto_size: false
+  canvas_id: c1cc1ee5-fe74-48c6-a7fd-2cf277282d0b
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Benchmarks data loading, vectorization, and aggregation optimizations;
+    demonstrates 70%+ memory savings and processing speedups through dtype tuning
+    and vectorized operations.
+  height: 1000
+  id: 48e31179-11f0-44d5-9ad3-d025a41b8531
+  layer_id: e3438430-e077-4f5a-8952-51e23c616975
+  name: Comprehensive Optimization Implementation
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 4200
+- auto_size: false
+  canvas_id: c1cc1ee5-fe74-48c6-a7fd-2cf277282d0b
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: 'Compares CSV loading performance across three methods: standard, dtype-optimized,
+    and C-engine approaches with memory usage analysis'
+  height: 1000
+  id: 4db836fb-5784-4f8b-b7b7-688b8fa7aff0
+  layer_id: e3438430-e077-4f5a-8952-51e23c616975
+  name: Loading Performance Benchmark
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 1400
+- auto_size: false
+  canvas_id: c1cc1ee5-fe74-48c6-a7fd-2cf277282d0b
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Analyzes penguin dataset dimensions, memory usage, missing values,
+    column types, distributions, and categorical summaries
+  height: 1000
+  id: 7ec19b84-9114-4ef2-aa70-46f4a5aeaaaf
+  layer_id: e3438430-e077-4f5a-8952-51e23c616975
+  name: Data Characteristics Analysis
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 0
+- auto_size: false
+  canvas_id: c1cc1ee5-fe74-48c6-a7fd-2cf277282d0b
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Benchmarks common pandas operations and identifies performance bottlenecks,
+    with optimization recommendations
+  height: 1000
+  id: b5b699ef-c3b4-44bd-8d17-f787d3086c0f
+  layer_id: e3438430-e077-4f5a-8952-51e23c616975
+  name: Processing Bottleneck Identification
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 2800
+- auto_size: false
+  canvas_id: c1cc1ee5-fe74-48c6-a7fd-2cf277282d0b
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Visualizes data optimization performance with 4 charts showing memory
+    reduction (70%), vectorization speedup (43.7x), and pipeline improvements
+  height: 1000
+  id: febd57a2-3870-48d5-922a-281a69755d60
+  layer_id: e3438430-e077-4f5a-8952-51e23c616975
+  name: Performance Visualization Dashboard
+  parent_id: null
+  properties:
+    interactive_execution: true
+  status: 1
+  type: 1
+  variables: null
+  width: 1600
+  x: 4000
+  y: 4200
+edges:
+- canvas_id: c1cc1ee5-fe74-48c6-a7fd-2cf277282d0b
+  id: 27113b28-301d-400e-b62b-990398f80397
+  layer_id: e3438430-e077-4f5a-8952-51e23c616975
+  source: 48e31179-11f0-44d5-9ad3-d025a41b8531
+  target: febd57a2-3870-48d5-922a-281a69755d60
+- canvas_id: c1cc1ee5-fe74-48c6-a7fd-2cf277282d0b
+  id: 285754c4-8165-4aa5-b526-fd802a92e6bc
+  layer_id: e3438430-e077-4f5a-8952-51e23c616975
+  source: 46567137-4eaf-425d-9d55-f973241bdece
+  target: 4db836fb-5784-4f8b-b7b7-688b8fa7aff0
+- canvas_id: c1cc1ee5-fe74-48c6-a7fd-2cf277282d0b
+  id: 8b98504a-2d58-496e-97b6-5e1bc5bbdfa9
+  layer_id: e3438430-e077-4f5a-8952-51e23c616975
+  source: 46567137-4eaf-425d-9d55-f973241bdece
+  target: 48e31179-11f0-44d5-9ad3-d025a41b8531
+- canvas_id: c1cc1ee5-fe74-48c6-a7fd-2cf277282d0b
+  id: af4be960-211b-497a-9e04-03815266f60c
+  layer_id: e3438430-e077-4f5a-8952-51e23c616975
+  source: 46567137-4eaf-425d-9d55-f973241bdece
+  target: b5b699ef-c3b4-44bd-8d17-f787d3086c0f
+- canvas_id: c1cc1ee5-fe74-48c6-a7fd-2cf277282d0b
+  id: d47c0b1e-4b6c-466a-bb7d-1027d32f1c54
+  layer_id: e3438430-e077-4f5a-8952-51e23c616975
+  source: 46567137-4eaf-425d-9d55-f973241bdece
+  target: 7ec19b84-9114-4ef2-aa70-46f4a5aeaaaf
